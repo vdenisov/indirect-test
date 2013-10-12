@@ -2,17 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c4c1f7e-c35d-436a-a955-987c6764c572" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectCalls.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectCallsCombinedImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectCallsProxyImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectCallsReflectionImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/TestRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/CollectionsWork.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/ComputationalWork.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/util/Config.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/DirectCallsImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/IOWork.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/IndirectCalls.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/IndirectCallsCombinedImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/IndirectCallsProxyImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/IndirectCallsReflectionImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/IndirectTest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectTestConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_0_beta9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_0_beta9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/MultithreadedWork.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/NullWork.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/TestException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/TestResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/util/TimePrinter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/Work.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/indirecttest.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="DELETED" beforePath="C:\Dev\indirect-test\src\main\java\org\plukh\indirecttest\IndirectCalls.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dev\indirect-test\src\main\java\org\plukh\indirecttest\IndirectCallsCombinedImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dev\indirect-test\src\main\java\org\plukh\indirecttest\IndirectCallsProxyImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dev\indirect-test\src\main\java\org\plukh\indirecttest\IndirectCallsReflectionImpl.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectTest.java" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/TestRunner.java" afterPath="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/TestRunner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indirect-test.iml" afterPath="$PROJECT_DIR$/indirect-test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="indirect-test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381145899833" ignored="false" />
+    <file path="/Dummy.txt" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381484167028" ignored="false" />
+    <file path="/IndirectCallsCombinedImpl.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381491646093" ignored="false" />
+    <file path="/DirectCallsImpl.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381483973258" ignored="false" />
+    <file path="/IndirectCallsProxyImpl.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381484924662" ignored="false" />
+    <file path="/IndirectCallsReflectionImpl.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381485423481" ignored="false" />
+    <file path="/pom.xml" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381480508775" ignored="false" />
+    <file path="/log4j2.xml" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381334816743" ignored="false" />
+    <file path="/IndirectTest.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381491984832" ignored="false" />
+    <file path="/indirecttest.properties" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381511867913" ignored="false" />
+    <file path="/IndirectTestConfig.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381491901707" ignored="false" />
+    <file path="/fragment.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381505753307" ignored="false" />
+    <file path="dbtable:/797ab0c3/40372bdf-c2c6-4bdc-8067-5f838835a6e7/Outsourced..TWEETS" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381340444320" ignored="false" />
+    <file path="db-console:/98b3b13d/d7906b3f-2780-4ff2-9115-abb9eedec015/" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381411442603" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/Activate-Common/src/test/java/com/sibylvision/dao/dynamodb/DataDAOImplTest.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381402255191" ignored="false" />
+    <file path="/DataDAOImplTest.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381402254887" ignored="false" />
+    <file path="/DataDAOImpl.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381402360632" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/Activate-Common/src/test/resources/json/datadao-datapoints.json" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381402474453" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/Activate-Common/src/main/java/com/sibylvision/dao/dynamodb/DataDAOImpl.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381402360632" ignored="false" />
+    <file path="/datadao-datapoints.json" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381402448615" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/pom.xml" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381411410176" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/.idea/workspace.xml" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381411415943" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/.idea/copyright/profiles_settings.xml" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381402539580" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/.idea/uiDesigner.xml" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381402539580" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/.idea/misc.xml" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381403337314" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/.idea/modules.xml" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381402539580" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/.idea/encodings.xml" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381402550974" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/.idea/compiler.xml" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381404168440" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/.idea/vcs.xml" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381402539580" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/src/main/java/org/plukh/datetimeconverter/DateTimeConverterMain.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381404168206" ignored="false" />
+    <file path="/DateTimeConverterMain.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381403441865" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/src/main/java/org/plukh/datetimeconverter/DateTimeConverterForm.form" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381404261070" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/src/main/java/org/plukh/datetimeconverter/DateTimeConverterForm.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381404168206" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/src/main/resources/log4j2.xml" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381403223110" ignored="false" />
+    <file path="/DateTimeConverterForm.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381404135310" ignored="false" />
+    <file path="$PROJECT_DIR$/../oDesk/datetime-converter/.gitignore" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381409259954" ignored="false" />
+    <file path="/ComputationalWork.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381494945990" ignored="false" />
+    <file path="/IOWork.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381511710111" ignored="false" />
+    <file path="/MultithreadedWork.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381527551490" ignored="false" />
+    <file path="/NullWork.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381483761782" ignored="false" />
+    <file path="/Work.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381419296161" ignored="false" />
+    <file path="/TestRunner.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381493788228" ignored="false" />
+    <file path="/IndirectCalls.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381425106965" ignored="false" />
+    <file path="/TimePrinter.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381483597343" ignored="false" />
+    <file path="/a.dummy" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381505753307" ignored="false" />
+    <file path="/TestException.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381485087962" ignored="false" />
+    <file path="/TestResults.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381492179414" ignored="false" />
+    <file path="/TestResult.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381493506901" ignored="false" />
+    <file path="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/WorkResult.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381493028481" ignored="false" />
+    <file path="/CollectionsWork.java" changelist="6c4c1f7e-c35d-436a-a955-987c6764c572" time="1381510784521" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +103,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -63,7 +140,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -73,10 +149,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="indirecttest.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/indirecttest.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+            <state line="4" column="24" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultithreadedWork.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/MultithreadedWork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="24" selection-start="2747" selection-end="2747" vertical-scroll-proportion="1.3171642">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectionsWork.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/CollectionsWork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="31" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOWork.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/IOWork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="47" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputationalWork.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/ComputationalWork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="30" selection-start="51" selection-end="68" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndirectCalls.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/IndirectCalls.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="9" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndirectCallsReflectionImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/IndirectCallsReflectionImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="77" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectCallsImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/DirectCallsImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="19" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Work.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/Work.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="9" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,7 +245,41 @@
       <file leaf-file-name="IndirectTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="25" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+            <state line="97" column="28" selection-start="3316" selection-end="3316" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestResult.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/TestResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="43" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#WorkResult#0;class#TestResult#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/util/Config.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndirectTestConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectTestConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="60" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,44 +288,10 @@
       <file leaf-file-name="TestRunner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="23" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndirectCalls.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectCalls.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="31" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndirectCallsProxyImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectCallsProxyImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="35" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndirectCallsReflectionImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectCallsReflectionImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="40" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndirectCallsCombinedImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectCallsCombinedImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="38" selection-start="71" selection-end="71" vertical-scroll-proportion="0.060390763">
-              <folding />
+            <state line="52" column="35" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,7 +314,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/DirectCallsImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/IndirectCallsProxyImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/TestException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/IndirectCalls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/IndirectCallsReflectionImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/IndirectCallsCombinedImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectTestConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/TestResults.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/TestResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/ComputationalWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/CollectionsWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/IOWork.java" />
+        <option value="$PROJECT_DIR$/indirecttest.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/MultithreadedWork.java" />
       </list>
     </option>
   </component>
@@ -165,11 +340,39 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="indirect-test" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="indirect-test" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -182,7 +385,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -190,7 +393,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="true" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -198,7 +401,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,11 +433,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,31 +463,201 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="plukh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indirect-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indirect-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plukh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="indirecttest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indirect-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indirect-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plukh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indirecttest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indirect-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indirect-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plukh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="indirecttest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Project" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="org.plukh.indirecttest.work.MultithreadedWork" />
+      <recent name="org.plukh.indirecttest.work.MultithreadedWork.ProducerThread" />
+      <recent name="org.plukh.util.TimePrinter" />
+    </key>
+  </component>
+  <component name="Regex">
+    <option name="pos1" value="218" />
+    <option name="pos2" value="218" />
+    <option name="pos3" value="162" />
+    <option name="pos4" value="444" />
+    <option name="pos5" value="162" />
+    <option name="autoUpdate" value="true" />
+    <option name="referenceOn" value="false" />
+    <option name="referencePos" value="0" />
+    <option name="showLabels" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.IndirectTest">
+    <configuration default="false" name="TimePrinter" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.plukh.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.plukh.util.TimePrinter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="indirect-test" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -343,7 +715,15 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.IndirectTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TimePrinter" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.TimePrinter" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -357,6 +737,9 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -385,28 +768,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19530416" sideWeight="0.67065215" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6694079" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2139808" sideWeight="0.67065215" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3305921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -472,60 +857,141 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/util/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectTestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="60" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/TestResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="30" column="43" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#WorkResult#0;class#TestResult#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+        <state line="97" column="28" selection-start="3316" selection-end="3316" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="681" column="0" selection-start="25610" selection-end="25610" vertical-scroll-proportion="0.33333334">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/IndirectCallsReflectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="77" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/ComputationalWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="30" selection-start="51" selection-end="68" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/IndirectCalls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="9" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/tests/DirectCallsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="19" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/Work.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="9" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/CollectionsWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="31" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+        <state line="52" column="35" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="325" column="53" selection-start="11998" selection-end="11998" vertical-scroll-proportion="0.30236796">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectCalls.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/IOWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+        <state line="12" column="47" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indirecttest.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="24" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectCallsProxyImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/work/MultithreadedWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectCallsReflectionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/plukh/indirecttest/IndirectCallsCombinedImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="38" selection-start="71" selection-end="71" vertical-scroll-proportion="0.060390763">
-          <folding />
+        <state line="91" column="24" selection-start="2747" selection-end="2747" vertical-scroll-proportion="1.3171642">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

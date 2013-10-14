@@ -19,6 +19,8 @@ public class IndirectTest {
     public static void main(String[] args) {
         log.info("IndirectTest starting up...");
 
+        showVariables();
+
         showVersion();
 
         loadConfig(args.length > 0 ? args[0] : null);
@@ -28,6 +30,19 @@ public class IndirectTest {
         runTests();
     }
 
+    private static void showVariables() {
+        log.trace("Java properties");
+        log.trace("===============");
+        for (String property : System.getProperties().stringPropertyNames()) {
+            log.trace(property + "=" + System.getProperty(property));
+        }
+
+        log.trace("System variables");
+        log.trace("================");
+        for (String name : System.getenv().keySet()) {
+            log.trace(name + "=" + System.getenv(name));
+        }
+    }
 
 
     private static void showVersion() {
@@ -96,7 +111,6 @@ public class IndirectTest {
     }
 
     private static void configureRepetitions() {
-        runner.setTestRepetitions(Long.parseLong(config.getProperty(IndirectTestConfig.TEST_REPETITIONS)));
         runner.setWorkRepetitions(Long.parseLong(config.getProperty(IndirectTestConfig.WORK_REPETITIONS)));
         runner.setAverageOver(Integer.parseInt(config.getProperty(IndirectTestConfig.AVERAGE_OVER)));
     }

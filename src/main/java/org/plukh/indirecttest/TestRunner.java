@@ -1,22 +1,26 @@
 package org.plukh.indirecttest;
 
+import au.com.bytecode.opencsv.CSVWriter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.plukh.indirecttest.tests.IndirectCalls;
 import org.plukh.indirecttest.work.Work;
 import org.plukh.util.TimePrinter;
 
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 public class TestRunner {
     private static final Logger log = LogManager.getLogger(TestRunner.class);
 
+    private static final SimpleDateFormat FILENAME_TIMESTAMP_FORMAT = new SimpleDateFormat("yyyyMMdd-HHmmss");
+
     private final List<Class<?>> testClasses;
     private final List<Class<?>> workClasses;
-    private long testRepetitions;
     private long workRepetitions;
     private int averageOver;
 
@@ -49,9 +53,7 @@ public class TestRunner {
 
                         final long start = System.currentTimeMillis();
 
-                        for (long i = 0; i < testRepetitions; ++i) {
-                            test.run(workRepetitions);
-                        }
+                        test.run(workRepetitions);
 
                         final long end = System.currentTimeMillis();
 
@@ -83,6 +85,24 @@ public class TestRunner {
             }
             log.info(sb.toString());
         }
+
+        log.info("Writing test results to the file");
+
+        //Write test results to CSV file
+        try (CSVWriter writer = new CSVWriter(getResultsWriter())) {
+            final String[] str = new String[] {"Test class", "Work class", "Average execution time"};
+            writer.writeNext(str);
+            for (TestResult result : results.values()) {
+                str[0] = result.getTestClass().getSimpleName();
+                for (Class<?> workClass : workClasses) {
+                    str[1] = workClass.getSimpleName();
+                    str[2] = TimePrinter.printTime(result.getAverage(workClass));
+                    writer.writeNext(str);
+                }
+            }
+        } catch (IOException e) {
+            log.error("Error writing test results to the file", e);
+        }
     }
 
     public void addTestClass(String className) throws ClassNotFoundException {
@@ -111,11 +131,6 @@ public class TestRunner {
         log.debug("Added work class: " + clazz.getName());
     }
 
-    public void setTestRepetitions(long testRepetitions) {
-        this.testRepetitions = testRepetitions;
-        log.debug("Set test repetitions to " + testRepetitions);
-    }
-
     public void setWorkRepetitions(long workRepetitions) {
         this.workRepetitions = workRepetitions;
         log.debug("Set work repetitions to " + workRepetitions);
@@ -124,5 +139,16 @@ public class TestRunner {
     public void setAverageOver(int averageOver) {
         this.averageOver = averageOver;
         log.debug("Results will be averaged over " + averageOver + " runs");
+    }
+
+    private Writer getResultsWriter() throws IOException {
+        final String jvmVersion = System.getProperty("java.specification.version");
+        final String bits = System.getProperty("sun.arch.data.model");
+        final String arch = System.getProperty("os.arch");
+        final String fileName = "indirect-test-" +
+                arch + "-Java" + jvmVersion + "-" + bits + "-" +
+                FILENAME_TIMESTAMP_FORMAT.format(new Date()) + ".csv";
+
+        return new BufferedWriter(new FileWriter(fileName));
     }
 }

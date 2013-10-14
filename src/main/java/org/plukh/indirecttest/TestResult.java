@@ -1,11 +1,11 @@
 package org.plukh.indirecttest;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class TestResult {
     private Class<?> testClass;
-    private Map<Class<?>, WorkResult> workResults = new HashMap<>();
+    private Map<Class<?>, WorkResult> workResults = new LinkedHashMap<>();
 
     private class WorkResult {
         private long time;

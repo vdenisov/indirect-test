@@ -1,10 +1,9 @@
 #Build output
-
 /target
 
-
-
 #Personal workspace
+/.idea/workspace.xml
 
-/.idea/workspace.xml 
+#Other work files
 /*.hprof
+/*.csv
